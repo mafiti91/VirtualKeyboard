@@ -1,0 +1,25 @@
+{
+  "name": "222",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./js",
+    "lint:fix": "eslint ./js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mafiti91/Virtual-Keyboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mafiti91/Virtual-Keyboard/issues"
+  },
+  "homepage": "https://github.com/mafiti91/Virtual-Keyboard#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb": "^19.0.4"
+  }
+}
