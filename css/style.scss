@@ -1,0 +1,139 @@
+@charset "UTF-8";
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.text {
+  margin: 0 auto;
+  font-size: 32px;
+  color: blue;
+  text-align: center;
+}
+
+textarea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 850px;
+  border: 5px solid blue;
+  padding: 10px;
+  resize: none;
+}
+
+.keyboard {
+  margin: 0 auto;
+  padding: 10px;
+  width: 835px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.button-keyboard {
+  transition: all 0.1s ease;
+  width: 50px;
+  height: 50px;
+  border: 2px solid blue;
+  border-radius: 20%;
+  padding: 3px;
+  background-color: yellow;
+  font-size: 28px;
+}
+
+.Backspace {
+  background-color: rgb(17, 149, 236);
+  font-size: 16px;
+  width: 100px;
+}
+
+.Tab {
+  background-color: rgb(17, 149, 236);
+  font-size: 16px;
+  width: 75px;
+}
+
+.Enter {
+  background-color: rgb(17, 149, 236);
+  font-size: 16px;
+  width: 75px;
+}
+
+.CapsLk {
+  background-color: rgb(17, 149, 236);
+  font-size: 16px;
+  width: 100px;
+}
+
+.▲ {
+  background-color: rgb(17, 149, 236);
+  font-size: 28px;
+}
+
+.Shift {
+  background-color: rgb(17, 149, 236);
+  font-size: 16px;
+  width: 100px;
+}
+
+.◀ {
+  background-color: rgb(17, 149, 236);
+  font-size: 28px;
+}
+
+.▼ {
+  background-color: rgb(17, 149, 236);
+  font-size: 28px;
+}
+
+.▶ {
+  background-color: rgb(17, 149, 236);
+  font-size: 28px;
+}
+
+.Ctrl {
+  background-color: rgb(17, 149, 236);
+  font-size: 16px;
+  width: 100px;
+}
+
+.Alt {
+  background-color: rgb(17, 149, 236);
+  font-size: 16px;
+  width: 60px;
+}
+
+.Space {
+  background-color: rgb(17, 149, 236);
+  width: 590px;
+  border-radius: 10%;
+}
+
+.Win {
+  background-color: rgb(17, 149, 236);
+  font-size: 16px;
+}
+
+.caps-active {
+  background-color: rgb(87, 8, 8);
+}
+
+.active {
+  border-radius: 0%;
+  background-color: red;
+}
+
+.active-lng {
+  background-color: red;
+}
